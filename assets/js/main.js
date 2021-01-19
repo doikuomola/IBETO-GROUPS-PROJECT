@@ -123,10 +123,6 @@
     }
   });
 
-  if ($(window).scrollTop() > 100) {
-    $('#header').addClass('header-scrolled');
-  }
-
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
