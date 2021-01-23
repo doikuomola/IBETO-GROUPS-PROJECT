@@ -467,59 +467,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-/* .clients {
-  padding-top: 20px;
-}
-
-.clients .owl-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.clients .owl-item img {
-  width: 70%;
-  opacity: 0.5;
-  transition: 0.3s;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.clients .owl-item img:hover {
-  -webkit-filter: none;
-  filter: none;
-  opacity: 1;
-}
-
-.clients .owl-nav,
-.clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.clients .owl-dot.active {
-  background-color: #ffc451 !important;
-} */
-
-/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#services{
-  background: url("../img/BG-1.jpg") top center;
-  background-size: cover;
-}
 
 .services .icon-box {
   text-align: center;
@@ -542,14 +491,14 @@ section {
   transition: 0.3s;
 }
 
-.services .icon-box .icon i {
+/* .services .icon-box .icon i {
   color: #151515;
   font-size: 28px;
   transition: ease-in-out 0.3s;
-}
+} */
 
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
@@ -578,6 +527,10 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team{
+  color:black
+}
+
 /* .team {
   background: #fff;
   padding: 60px 0;
@@ -821,9 +774,6 @@ section {
   height: 300px;
 }
 
-
-
-
 /* FontAwesome for working BootSnippet :> */
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -934,12 +884,12 @@ section .section-title {
 
 .backside .card a {
   font-size: 18px;
-  color: #007b5e !important;
+  /* color: #007b5e !important; */
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-  color: #007b5e !important;
+  /* color: #007b5e !important; */
 }
 
 .frontside .card .card-body img {
@@ -956,4 +906,10 @@ section .section-title {
 #bg{
   background: url("../img/BG-1.jpg") top center;
   background-size: cover;
+}
+
+#footer{
+  text-align: center;
+  background: #000;
+  padding: 10px 0;
 }
