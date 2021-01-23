@@ -939,3 +939,13 @@ section .section-title {
   height: 120px;
   border-radius: 50%;
 }
+
+#auto-parts{
+  margin-top: 60px;
+  color: #fff
+}
+
+#bg{
+  background: url("../img/BG-1.jpg") top center;
+  background-size: cover;
+}
