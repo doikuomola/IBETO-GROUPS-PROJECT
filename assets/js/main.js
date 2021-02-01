@@ -103,6 +103,41 @@
     return false;
   });
 
+  // aboout page js
+  $('#show-about-display').click(function(){
+    // $(this).slideToggle('500');
+    $(this).find('i').toggleClass('fa-arrow-circle-down')
+  });
+
+  $('.clk a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display').toggle(1000)
+});
+  $('.clk2 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display2').toggle(1000)
+});
+  $('.clk3 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display3').toggle(1000)
+});
+  $('.clk4 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display4').toggle(1000)
+});
+  $('.clk5 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display5').toggle(1000)
+});
+  $('.clk6 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display6').toggle(1000)
+});
+  $('.clk7 a').click(function(){
+    $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
+    $('#about-display7').toggle(1000)
+});
+
   // Init AOS
   function aos_init() {
     AOS.init({
@@ -143,3 +178,6 @@
 {/* <body style='background:black;' onload='changeimage(2)'>
 <div style='position:absolute;width:100%;height:100%;left:0px;top:0px;' align='center'><img width='300px' height='250px' id='myimage' src='http://www.photos.a-vsp.com/fotodb/14_green_cones.jpg'/></div>
 </body */}
+
+
+
