@@ -905,7 +905,14 @@ section .section-title {
 
 #bg{
   background: url("../img/BG-1.jpg") top center;
+  /* background-size: cover; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  /* Set a specific height */
+  min-height: 500px;
 }
 
 #footer{
@@ -913,3 +920,52 @@ section .section-title {
   background: #000;
   padding: 10px 0;
 }
+
+/* ABOUT STYLES */
+#about-display,
+#about-display2, 
+#about-display3, 
+#about-display4, 
+#about-display5,
+#about-display6,
+#about-display7{
+  display: none;
+  color:#000;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 99999;
+  box-shadow: 0px 2px 15px 5px black;
+}
+
+.clk a,
+.clk2 a,
+.clk3 a,
+.clk4 a,
+.clk5 a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.clk6 a,
+.clk7 a{
+  color: #0069B3
+}
+
+.clk a i,
+.clk2 a i,
+.clk3 a i,
+.clk4 a i,
+.clk5 a i
+{
+  color:#ffc451
+}
+
+.clk6 a i,
+.clk7 a i{
+  color: #0069B3
+}
+
+/* .about-display-show{
+  visibility: visible;
+} */
