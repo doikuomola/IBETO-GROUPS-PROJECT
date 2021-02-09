@@ -104,6 +104,7 @@
   });
 
   // aboout page js
+
   $('#show-about-display').click(function(){
     // $(this).slideToggle('500');
     $(this).find('i').toggleClass('fa-arrow-circle-down')
@@ -137,6 +138,7 @@
     $(this).find('i').toggleClass('fa-arrow-circle-right fa-arrow-circle-down')
     $('#about-display7').toggle(1000)
 });
+
 
   // Init AOS
   function aos_init() {
